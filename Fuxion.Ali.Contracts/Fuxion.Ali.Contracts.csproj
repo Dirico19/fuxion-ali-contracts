@@ -4,6 +4,18 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<!-- Metadatos para NuGet/GitHub Packages -->
+    <PackageId>Fuxion.Ali.Contracts</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Dirico19</Authors>
+    <Company>Fuxionali</Company>
+    <Description>Biblioteca de contratos para Fuxion Ali.</Description>
+    <PackageProjectUrl>https://github.com/Dirico19/fuxion-ali-contracts</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Dirico19/fuxion-ali-contracts.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
   </PropertyGroup>
 
 </Project>

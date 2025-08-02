@@ -24,7 +24,7 @@ obj/
 # NuGet
 *.nupkg
 *.snupkg
-# *.nuspec
+*.nuspec
 packages/
 .nuget/
 
