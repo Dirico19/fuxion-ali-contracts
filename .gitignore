@@ -1,0 +1,68 @@
+# Build results
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.ilk
+*.log
+*.pdb
+*.tmp
+*.vspscc
+*.vssscc
+*.dbmdl
+
+# Visual Studio
+.vscode/
+.vs/
+.vscode/*
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+# *.nuspec
+packages/
+.nuget/
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Others
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+
+# Mac/Linux files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Publish folders
+publish/
+artifacts/
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# Backup & temp files
+*.bak
+*.tmp
+*.swp
+*.orig
+
+# Environment
+.env
+*.env
+
+# Ignore global.json if you manage SDK version elsewhere
+# global.json
