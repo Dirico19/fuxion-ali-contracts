@@ -22,21 +22,11 @@ jobs:
       - name: Build
         run: dotnet build --configuration Release --no-restore
 
-      - name: Set version suffix
-        id: version
-        run: |
-          if [[ "${GITHUB_REF##*/}" == "develop" ]]; then
-            echo "suffix=-dev" >> $GITHUB_OUTPUT
-          else
-            echo "suffix=" >> $GITHUB_OUTPUT
-          fi
-
       - name: Pack
         run: |
           dotnet pack Fuxion.Ali.Contracts/Fuxion.Ali.Contracts.csproj \
             --configuration Release \
-            --output ./nupkg \
-            /p:VersionSuffix=${{ steps.version.outputs.suffix }}
+            --output ./nupkg
 
       - name: Publish to GitHub Packages
         run: |
