@@ -1,10 +1,6 @@
 name: Publish NuGet Package
 
 on:
-  push:
-    branches:
-      - master
-      - develop
   workflow_dispatch:
   
 jobs:
@@ -43,7 +39,7 @@ jobs:
             /p:VersionSuffix=${{ steps.version.outputs.suffix }}
 
       - name: Publish to GitHub Packages
-        run: dotnet nuget push ./nupkg/*.nupkg \
+        run: dotnet nuget push ./Fuxion.Ali.Contracts/nupkg/*.nupkg \
           --source "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json" \
           --api-key ${{ secrets.GH_PACKAGES_TOKEN }}
 
