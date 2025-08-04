@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 	<!-- Metadatos para NuGet/GitHub Packages -->
     <PackageId>Fuxion.Ali.Contracts</PackageId>
-    <Version>1.0.1-feature-auth.3</Version>
+    <Version>1.0.1-feature-auth.4</Version>
     <Authors>Dirico19</Authors>
     <Company>Fuxionali</Company>
     <Description>Biblioteca de contratos para Fuxion Ali.</Description>
