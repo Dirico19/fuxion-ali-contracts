@@ -6,8 +6,7 @@
     <Nullable>enable</Nullable>
 	<!-- Metadatos para NuGet/GitHub Packages -->
     <PackageId>Fuxion.Ali.Contracts</PackageId>
-    <Version>1.0.1</Version>
-	<VersionSuffix></VersionSuffix>
+    <Version>1.0.1-feature-auth.4</Version>
     <Authors>Dirico19</Authors>
     <Company>Fuxionali</Company>
     <Description>Biblioteca de contratos para Fuxion Ali.</Description>
@@ -18,5 +17,9 @@
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageOutputPath>./nupkg</PackageOutputPath>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.0.0" />
+  </ItemGroup>
 
 </Project>
