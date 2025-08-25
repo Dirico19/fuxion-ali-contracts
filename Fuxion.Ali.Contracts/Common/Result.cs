@@ -8,7 +8,7 @@
         public string? Message { get; set; }
         public T? Data { get; set; }
 
-        public static Result<T> Ok(T data, string? message = null)
+        public static Result<T> Ok(T? data = null, string? message = null)
         {
             return new Result<T> { IsSuccess = true, Data = data, Message = message };
         }
